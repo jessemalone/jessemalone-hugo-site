@@ -20,8 +20,7 @@ class Player extends React.Component {
           playing='false'
           controls='true'
           width='100%' 
-          height='100%' 
-
+          height='30px' 
         /> 
       </div>
     )
@@ -38,7 +37,7 @@ angular.module('app', [
 ]).
     config(['$routeProvider', '$interpolateProvider', function($routeProvider, $interpolateProvider) {
     $routeProvider.when('/home', {templateUrl: '/angular_templates/home', controller: 'pageController'});
-    $routeProvider.when('/projects', {templateUrl: '/angular_templates/bio ', controller: 'pageController'});
+    $routeProvider.when('/projects', {templateUrl: '/angular_templates/projects ', controller: 'pageController'});
     $routeProvider.when('/events', {templateUrl: '/angular_templates/events', controller: 'pageController'});
     $routeProvider.otherwise({redirectTo: '/home'});
 
