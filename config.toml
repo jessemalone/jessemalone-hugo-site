@@ -1,0 +1,43 @@
+baseURL = "http://dokku.jsoft.ca"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-initio"
+
+[params]
+        name = "Jesse Malone"
+        description = "Musician | Software Developer"
+        email = ""
+        year = 2019
+        avatar = "images/circlephoto.jpg"
+        background = ""
+        favicon = "images/gt_favicon.png"
+        DateForm = "January 2, 2006"
+
+        showSubheader = true
+        showServices = false
+        showAbout = true
+        showRecentWorks = false
+        showDownload = false
+        showClients = false
+
+        footerEnableContact = true
+        footerEnableFollowme = true
+        footerEnableTextWidget = false
+        footerEnableFormWidget = false
+
+[[menu.main]]
+  name = "home"
+  url = "#!/home"
+  weight = 1
+
+
+[[menu.main]]
+  name = "events"
+  url = "#!/events"
+  weight = 3
+
+[[menu.main]]
+  name = "projects"
+  url = "#!/projects"
+  weight = 4
+

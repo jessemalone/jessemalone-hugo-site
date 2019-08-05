@@ -1,0 +1,28 @@
+
+        {{ if .Site.Params.showSubheader }}
+            {{ partial "subheader.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showAbout }}
+            {{ partial "about.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showListen }}
+            {{ partial "listen.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showServices }}
+            {{ partial "services.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showRecentWorks }}
+            {{ partial "recentworks.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showDownload }}
+            {{ partial "download.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showClients }}
+            {{ partial "clients.html" . }}
+        {{ end }}

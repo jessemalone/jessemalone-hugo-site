@@ -1,0 +1,13 @@
+<div class="row section featured topspace">
+
+    <h2 class="section-title"><span>About</span></h2>
+
+    <div class="">
+            <div class="col-lg-12">
+                {{ with .Site.GetPage "section" "about" }}
+                <p>{{ .Content }}</p>
+                {{ end }}
+            </div>
+    </div>
+
+</div> <!-- / section -->
