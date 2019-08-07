@@ -1,12 +1,12 @@
-baseURL = "http://dokku.jsoft.ca"
+baseURL = "https://jessemalone.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jesse Malone"
 theme = "hugo-initio"
 
 [params]
         name = "Jesse Malone"
         description = "Musician | Software Developer"
-        email = ""
+        email = "jesse malone at gmail dot com"
         year = 2019
         avatar = "images/circlephoto.jpg"
         background = ""
@@ -23,7 +23,7 @@ theme = "hugo-initio"
         footerEnableContact = true
         footerEnableFollowme = true
         footerEnableTextWidget = false
-        footerEnableFormWidget = false
+        footerEnableFormWidget = true
 
 [[menu.main]]
   name = "home"
@@ -32,7 +32,7 @@ theme = "hugo-initio"
 
 
 [[menu.main]]
-  name = "events"
+  name = "shows"
   url = "#!/events"
   weight = 3
 
@@ -41,3 +41,26 @@ theme = "hugo-initio"
   url = "#!/projects"
   weight = 4
 
+[[params.social]]
+	title = "github"
+	url = "https://github.com/xtreme-jesse-malone"
+    icon = "fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+
+[[params.social]]
+	title = "linkedin"
+	url = "https://ca.linkedin.com/in/jesse-malone-29970a14"
+    icon = "fa-linkedin"
+    footer = true
+    sharethis = false
+    network = ""
+
+[[params.social]]
+	title = "soundcloud"
+	url = "https://soundcloud.com/jessemalone"
+    icon = "fa-soundcloud"
+    footer = true
+    sharethis = false
+    network = ""

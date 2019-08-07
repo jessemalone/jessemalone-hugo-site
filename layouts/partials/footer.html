@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			{{ if .Site.Params.footerEnableContact }}
-			<div class="col-md-3 widget">
+			<div class="col-md-3 col-md-offset-2 widget">
 				<h3 class="widget-title">Contact</h3>
 				<div class="widget-body">
 					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
@@ -41,13 +41,27 @@
 
 			{{ if .Site.Params.footerEnableFormWidget }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
+				<h3 class="widget-title">Mailing list</h3>
 				<div class="widget-body">
-					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
-					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
-						<br>
-						{{ if .Site.Params.address }}{{ .Site.Params.address }}{{ end }}
-					</p>
+                <!-- Begin Mailchimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="https://gmail.us3.list-manage.com/subscribe/post?u=4fa72e54a46f952441df2386e&amp;id=b8946197cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4fa72e54a46f952441df2386e_b8946197cd" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
 				</div>
 			</div>
 			{{ end }}
@@ -70,8 +84,6 @@
 				<div class="widget-body">
 					<p class="text-right">
 						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
-                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
                     </p>
 				</div>
 			</div>

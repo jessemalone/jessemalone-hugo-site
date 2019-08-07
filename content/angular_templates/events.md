@@ -1,5 +1,5 @@
 ---
-title: Events
+title: Shows
 ---
 
 #### Sunday August 25, 2019 - Malone/Feldman Trio at the Tranzac
