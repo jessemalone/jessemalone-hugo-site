@@ -2,8 +2,8 @@
 
 	<div class="container" ng-view>
 
-        {{ with .Site.GetPage "/angular_templates/home" }}
-        <p>{{ .Render "home"}}</p>
+        {{ with .Site.GetPage "/angular_templates/home.md" }}
+        <p>{{ .Render}}</p>
         {{ end }}
 
 	</div>	<!-- /container -->

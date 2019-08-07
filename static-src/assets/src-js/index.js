@@ -39,7 +39,7 @@ angular.module('app', [
     $routeProvider.when('/home', {templateUrl: '/angular_templates/home', controller: 'pageController'});
     $routeProvider.when('/projects', {templateUrl: '/angular_templates/projects ', controller: 'pageController'});
     $routeProvider.when('/events', {templateUrl: '/angular_templates/events', controller: 'pageController'});
-    $routeProvider.otherwise({redirectTo: '/home'});
+    $routeProvider.otherwise({templateUrl: '/angular_templates/home'});
 
 
     $interpolateProvider.startSymbol('[[');
