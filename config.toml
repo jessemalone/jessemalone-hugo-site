@@ -1,4 +1,4 @@
-baseURL = "https://jessemalone.com"
+baseURL = "https://jessemalone.com/"
 languageCode = "en-us"
 title = "Jesse Malone"
 theme = "hugo-initio"
