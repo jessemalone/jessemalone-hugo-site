@@ -3,34 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dokku.jsoft.ca/angular_templates/home/</loc>
+    <loc>https://jessemalone.com/about/</loc>
+    <lastmod>2019-08-01T00:44:19-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dokku.jsoft.ca/angular_templates/</loc>
+    <loc>https://jessemalone.com/angular_templates/home/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jessemalone.com/angular_templates/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dokku.jsoft.ca/categories/</loc>
+    <loc>https://jessemalone.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dokku.jsoft.ca/angular_templates/events/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dokku.jsoft.ca/</loc>
+    <loc>https://jessemalone.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dokku.jsoft.ca/angular_templates/projects/</loc>
+    <loc>https://jessemalone.com/angular_templates/projects/</loc>
   </url>
   
   <url>
-    <loc>http://dokku.jsoft.ca/tags/</loc>
+    <loc>https://jessemalone.com/angular_templates/events/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jessemalone.com/tags/</loc>
     <priority>0</priority>
   </url>
   
