@@ -42,10 +42,11 @@ angular.module('app', [
   'ngRoute'
 ]).
     config(['$routeProvider', '$interpolateProvider', function($routeProvider, $interpolateProvider) {
-    $routeProvider.when('/home', {templateUrl: '/angular_templates/home', controller: 'pageController'});
-    $routeProvider.when('/projects', {templateUrl: '/angular_templates/projects ', controller: 'pageController'});
-    $routeProvider.when('/events', {templateUrl: '/angular_templates/events', controller: 'pageController'});
-    $routeProvider.otherwise({templateUrl: '/angular_templates/home'});
+    var baseURL = window.location.protocol + '//' + window.location.host;
+    $routeProvider.when('/home', {templateUrl: baseURL +  '/angular_templates/home/', controller: 'pageController'});
+    $routeProvider.when('/projects', {templateUrl: baseURL + '/angular_templates/projects/', controller: 'pageController'});
+    $routeProvider.when('/events', {templateUrl: baseURL + '/angular_templates/events/', controller: 'pageController'});
+    $routeProvider.otherwise({templateUrl: baseURL + '/angular_templates/home/'});
 
 
     $interpolateProvider.startSymbol('[[');
