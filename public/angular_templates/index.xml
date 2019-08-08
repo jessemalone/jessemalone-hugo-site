@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular_templates on Jesse Malone</title>
-    <link>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/</link>
+    <link>//jessemalone.com/angular_templates/</link>
     <description>Recent content in Angular_templates on Jesse Malone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//jessemalone.com/angular_templates/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/home/</link>
+      <link>//jessemalone.com/angular_templates/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/home/</guid>
+      <guid>//jessemalone.com/angular_templates/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/projects/</link>
+      <link>//jessemalone.com/angular_templates/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/projects/</guid>
+      <guid>//jessemalone.com/angular_templates/projects/</guid>
       <description>The Jesse Malone Quintet The Jesse Malone Quintet began as and continues to serve as my outlet for composition. The group plays almost exclusively original compositions. In this endeaver I sometimes try to bridge the gap between my two disparate interests, writing tunes inspired by, or at least named for, concepts from computing.
 The group regularly features:
 Jesse Malone - Trumpet/Flugelhorn
@@ -34,10 +34,10 @@ Matt Newton - Piano</description>
     
     <item>
       <title>Shows</title>
-      <link>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/events/</link>
+      <link>//jessemalone.com/angular_templates/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/events/</guid>
+      <guid>//jessemalone.com/angular_templates/events/</guid>
       <description>Sunday August 25, 2019 - Malone/Feldman Trio at the Tranzac Location: 292 Brunswick Ave. Toronto Time: 12:30pm
 Monday Sept. 9, 2019 - The Writers&amp;rsquo; Jazz Orchestra at The Rex Location: 194 Queen St. W, Toronto Time: 9:30pm</description>
     </item>

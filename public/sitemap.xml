@@ -3,39 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/about/</loc>
+    <loc>//jessemalone.com/about/</loc>
     <lastmod>2019-08-01T00:44:19-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/home/</loc>
+    <loc>//jessemalone.com/angular_templates/home/</loc>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/</loc>
+    <loc>//jessemalone.com/angular_templates/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/categories/</loc>
+    <loc>//jessemalone.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/</loc>
+    <loc>//jessemalone.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/projects/</loc>
+    <loc>//jessemalone.com/angular_templates/projects/</loc>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/angular_templates/events/</loc>
+    <loc>//jessemalone.com/angular_templates/events/</loc>
   </url>
   
   <url>
-    <loc>http://jessemalone-hugo.caprover.jsoft.ca/tags/</loc>
+    <loc>//jessemalone.com/tags/</loc>
     <priority>0</priority>
   </url>
   
