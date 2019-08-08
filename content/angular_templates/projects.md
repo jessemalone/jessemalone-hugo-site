@@ -3,7 +3,7 @@ title: Projects
 ---
 ### The Jesse Malone Quintet
 
-The Jesse Malone Quintet began as and continues to serves as my outlet for composition. The group plays almost exclusively original compositions. In this endeaver I sometimes try to bridge the gap between my two disparate passions, writing tunes inspired by, or at least named for, concepts from computing.  
+The Jesse Malone Quintet began as and continues to serves as my outlet for composition. The group plays almost exclusively original compositions. In this endeaver I sometimes try to bridge the gap between my two disparate interests, writing tunes inspired by, or at least named for, concepts from computing.  
 
 The group regularly features:
 

@@ -5,8 +5,8 @@ theme = "hugo-initio"
 
 [params]
         name = "Jesse Malone"
-        description = "Musician | Software Developer"
-        email = "jesse malone at gmail dot com"
+        description = "Musician | Software Engineer"
+        email = "jesse.malone at gmail dot com"
         year = 2019
         avatar = "images/circlephoto.jpg"
         background = ""
