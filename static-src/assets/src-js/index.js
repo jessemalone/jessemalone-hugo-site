@@ -19,8 +19,15 @@ class Player extends React.Component {
           className='react-player' 
           playing='false'
           controls='true'
-          width='100%' 
+          width='250px' 
           height='30px' 
+          config={{
+                file: {
+                   attributes: {
+                        autoplay: false
+                   }
+                }
+          }}
         /> 
       </div>
     )
