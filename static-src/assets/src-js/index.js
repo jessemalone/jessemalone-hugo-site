@@ -17,7 +17,6 @@ class Player extends React.Component {
         <ReactPlayer 
           url={ media_urls }
           className='react-player' 
-          playing='false'
           controls='true'
           width='250px' 
           height='30px' 
