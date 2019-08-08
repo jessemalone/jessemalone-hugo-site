@@ -41,13 +41,13 @@ theme = "hugo-initio"
   url = "#!/projects"
   weight = 4
 
-[[params.social]]
-	title = "github"
-	url = "https://github.com/xtreme-jesse-malone"
-    icon = "fa-github"
-    footer = true
-    sharethis = false
-    network = ""
+#[[params.social]]
+#	title = "github"
+#	url = "https://github.com/xtreme-jesse-malone"
+#    icon = "fa-github"
+#    footer = true
+#    sharethis = false
+#    network = ""
 
 [[params.social]]
 	title = "linkedin"
