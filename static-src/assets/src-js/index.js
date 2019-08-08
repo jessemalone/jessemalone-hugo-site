@@ -1,5 +1,5 @@
-//let React = require("react"),
-//    ReactPlayer = require("react-player");
+import 'core-js';
+import 'regenerator-runtime/runtime';
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 import ReactDOM from 'react-dom'
