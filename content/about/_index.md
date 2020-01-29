@@ -5,6 +5,6 @@ draft: false
 layout: single
 ---
 
-Hi! I'm a jazz trumpet player freelancing around the GTA and I'm a Software Engineer at Pivotal. I discovered web devlopment back when Perl was cool and music long before that. I play with a number of groups around Toronto including the self titled "Jesse Malone Quintet". I also regularly play with Robin Jessome's Blunt Object, the Writers' Jazz Orchestra, and you might spot me in a mariachi band from time to time.  
+Hi! I'm a jazz trumpet player freelancing around the GTA and I'm a Software Engineer at Pivotal. I discovered web devlopment back when Perl was cool and music long before that. I play with a number of groups around Toronto including the  Jesse Malone Quintet and Malone/Felman Duo. I also regularly play with Robin Jessome's Blunt Object, the Writers' Jazz Orchestra.  
 
 <br />
