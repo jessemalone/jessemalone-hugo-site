@@ -13,7 +13,7 @@ unsafe= true
         year = 2019
         avatar = "images/circlephoto.jpg"
         background = ""
-        favicon = "images/gt_favicon.png"
+        favicon = "images/vger_favicon.png"
         DateForm = "January 2, 2006"
 
         showSubheader = true
