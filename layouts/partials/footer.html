@@ -6,7 +6,7 @@
 				<h3 class="widget-title">Contact</h3>
 				<div class="widget-body">
 					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
-					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
+					{{ if .Site.Params.email }}{{ .Site.Params.email }}<br>{{ end }}
 						<br>
 						{{ if .Site.Params.address }}{{ .Site.Params.address }}{{ end }}
 					</p>
