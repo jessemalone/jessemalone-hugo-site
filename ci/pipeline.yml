@@ -1,0 +1,59 @@
+resources:
+- name: site-repo
+  type: git
+  source:
+    uri: git@github.com:jessemalone/jessemalone-hugo-site.git
+    branch: master
+    private_key: "((concourse-deploy-key))"
+
+jobs:
+  - name: deploy
+    public: false
+    plan:
+    - get: site-repo
+      trigger: true
+    - task: build
+      config:
+        platform: linux
+        image_resource:
+          type: registry-image
+          source:
+            repository: jessemalone/hugo-build
+        inputs:
+          - name: site-repo
+        outputs:
+          - name: site-repo
+            path: site-repo/
+             
+        run:
+          path: /bin/bash
+          args:
+            - -c
+            - |
+              cd site-repo/
+              npm install
+              ./build.sh
+              tar -zcf ../site.tar.gz .
+              mv ../site.tar.gz .
+    - task: deploy
+      config:
+        platform: linux
+        image_resource:
+          type: registry-image
+          source:
+            repository: caprover/cli-caprover
+        inputs:
+          - name: site-repo
+        params:
+          APP_NAME: ((APP_NAME))
+          CAPROVER_HOST: ((CAPROVER_HOST))
+          CAPROVER_PASSWORD: ((CAPROVER_PASSWORD))
+          key: "((concourse-deploy-key))"
+        run:
+          path: /bin/bash
+          args:
+            - -c
+            - |
+              cd site-repo/
+              caprover deploy --appName "$APP_NAME" -t site.tar.gz --host "$CAPROVER_HOST" --pass "$CAPROVER_PASSWORD"
+              
